@@ -6,6 +6,6 @@ A simple desktop application serving Google Keep
 - `npm start`
 
 ## Distribution
-Deployment is using [Electron Builer](https://www.electron.build/)
+Deployment is using [Electron Builder](https://www.electron.build/)
 
 Check `package.json` for `pack-*` tasks in scripts section.
