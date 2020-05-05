@@ -11,7 +11,7 @@
     "dist": "electron-builder",
     "postinstall": "electron-builder install-app-deps"
   },
-  "author": "Emad Messiha",
+  "author": {"name": "Emad Messiha", "email": "emessiha@mail.com"},
   "license": "MIT",
   "repository": "https://github.com/emadmessiha/keepapp",
   "keywords": [
