@@ -7,15 +7,19 @@
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
     "pack-linux-deb": "electron-builder -l deb --dir",
+    "pack-linux-snap": "electron-builder -l snap --dir",
     "dist": "electron-builder",
     "postinstall": "electron-builder install-app-deps"
   },
-  "author": {
-    "name": "Emad Messiha",
-    "email": "emessiha@mail.com",
-    "url": "https://emadmessiha.com/"
-  },
+  "author": "Emad Messiha",
   "license": "MIT",
+  "repository": "https://github.com/emadmessiha/keepapp",
+  "keywords": [
+    "google keep",
+    "note taking",
+    "todo",
+    "notes"
+  ],
   "devDependencies": {
     "electron": "^8.2.5",
     "electron-builder": "^22.6.0"
