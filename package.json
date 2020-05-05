@@ -6,12 +6,13 @@
   "scripts": {
     "start": "electron .",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "pack": "electron-builder --dir",
+    "pack-linux-deb": "electron-builder -l deb --dir",
     "dist": "electron-builder",
     "postinstall": "electron-builder install-app-deps"
   },
   "author": {
     "name": "Emad Messiha",
+    "email": "emessiha@mail.com",
     "url": "https://emadmessiha.com/"
   },
   "license": "MIT",
@@ -21,8 +22,14 @@
   },
   "build": {
     "appId": "com.emadmessiha.keepapp",
+    "productName": "KeepApp Desktop",
     "mac": {
+      "icon": "icon.icns",
       "category": "public.app-category.productivity"
-    }
+    },
+    "linux": {
+      "category": "Utility"
+    },
+    "files": ["**/*", "build/icon.*"]
   }
 }
