@@ -5,13 +5,12 @@
   "main": "main.js",
   "scripts": {
     "start": "electron .",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "pack-linux-deb": "electron-builder -l deb --dir",
     "pack-linux-snap": "electron-builder -l snap --dir",
     "dist": "electron-builder",
     "postinstall": "electron-builder install-app-deps"
   },
-  "author": {"name": "Emad Messiha", "email": "emessiha@mail.com"},
+  "author": { "name": "Emad Messiha" },
   "license": "MIT",
   "repository": "https://github.com/emadmessiha/keepapp",
   "keywords": [
